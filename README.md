@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">Kadang yang paling kucinta, justru tak bisa kupeluk.<br>Hati bisa dekat, tapi takdir menjauhkan langkah.<br>Rindu pun jadi bahasa yang tak pernah selesai.<br>Dan aku belajar, mencintai juga berati merelakan.</p>
+<p align="center">Kadang yang paling kucinta, justru tak bisa kupeluk.<br>Hati bisa dekat, tapi takdir menjauhkan langkah.<br>Rindu pun jadi bahasa yang tak pernah selesai.<br>Dan aku belajar, mencintai juga berati merelakan.</p>
 
 ###
 
@@ -111,4 +111,3 @@
 </div>
 
 ###
-
