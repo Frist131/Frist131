@@ -2,7 +2,7 @@
 
 <!-- ===================== BANNER ===================== -->
 <p align="center">
-  <img src="assets/banner.png" width="100%" alt="Cybersecurity Banner"/>
+  <img src="assets/banner.gif" width="100%" alt="Cybersecurity Banner"/>
 </p>
 
 <p align="center">
