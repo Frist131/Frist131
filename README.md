@@ -84,9 +84,11 @@
 </p>
 
 <!-- ===================== PACMAN ===================== -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Frist131/Frist131/output/pacman-contribution-graph.svg" width="100%" alt="Pacman Contribution Graph"/>
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Frist131/Frist131/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Frist131/Frist131/output/pacman-contribution-graph.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Frist131/Frist131/output/pacman-contribution-graph.svg">
+</picture>
 
 <!-- ===================== SOCIAL ===================== -->
 ## 🌐 Social Media
