@@ -19,17 +19,13 @@
 <table>
   <tr>
     <td width="55%" valign="top">
-
-      ## Deskripsi
-
+      <h2>Deskripsi</h2>
       Seorang **Pentester** yang tertarik pada
       keamanan siber, analisis kerentanan,
       dan eksploitasi sistem untuk membangun
       pertahanan lebih kuat.
-
     </td>
     <td width="45%" align="center" valign="middle">
-
       <img src="assets/profile.png" width="100%" alt="Custom Profile Image"/>
     </td>
   </tr>
