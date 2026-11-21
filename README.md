@@ -83,7 +83,7 @@
 <!-- ===================== QUOTE ===================== -->
 <p align="center">
   <i>
-    "kerentanan yang sebenarnya itu ada
+    "kerentanan yang sebenarnya ada
     pada manusia itu sendiri."
   </i><br/>
   <sub>#human eror</sub>
@@ -93,8 +93,9 @@
 <!-- ===================== PACMAN ===================== -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" src="https://raw.githubusercontent.com/Frist131/Frist131/main/output/pacman.svg">
-  <img alt="generate Pacman" src="https://raw.githubusercontent.com/Frist131/Frist131/main/output/pacman.png" width="900" height="220">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Frist131/Frist131/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Frist131/Frist131/output/pacman-contribution-graph.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Frist131/Frist131/output/pacman-contribution-graph.svg">
 </picture>
 
 
