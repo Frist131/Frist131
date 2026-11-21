@@ -2,7 +2,7 @@
 
 <!-- ===================== BANNER ===================== -->
 <p align="center">
-  <img src="assets/banner.gif" width="100%" alt="banner"/>
+  <img src="assets/banner.gif" width="100%" alt="assets/banner"/>
 </p>
 <p align="center">
 </p>
@@ -28,7 +28,7 @@
       pertahanan lebih kuat.
     </td>
     <td width="45%" align="center" valign="middle">
-      <img src="assets/profile.png" width="100%" alt="Custom Profile Image"/>
+      <img src="assets/profile.pn" width="100%" alt="Custom Profile Image"/>
     </td>
   </tr>
 </table>
