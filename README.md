@@ -1,4 +1,5 @@
 
+
 <!-- ===================== BANNER ===================== -->
 <p align="center">
   <img src="assets/banner.png" width="100%" alt="Cybersecurity Banner"/>
@@ -7,6 +8,7 @@
 <p align="center">
 </p>
 
+
 <!-- ===================== TERMINAL ===================== -->
 <p align="center">
   <img
@@ -14,6 +16,7 @@
     alt="Terminal typing animation"
   />
 </p>
+
 
 <!-- ===================== PROFILE ===================== -->
 <table>
@@ -43,6 +46,7 @@
   <img src="https://img.shields.io/badge/Reporting-EA4335?style=for-the-badge&logoColor=white"/>
 </p>
 
+
 <!-- ===================== TOOLS ===================== -->
 ## ⚙️ Tools & Frameworks
 
@@ -55,6 +59,7 @@
   <img src="https://img.shields.io/badge/Nessus-00AEEF?style=for-the-badge&logoColor=white"/>
   <img src="https://img.shields.io/badge/John_the_Ripper-333333?style=for-the-badge&logoColor=white"/>
 </p>
+
 
 <!-- ===================== CERTIFICATES ===================== -->
 ## 🏆 Certifications & Achievements
@@ -74,21 +79,23 @@
   </tr>
 </table>
 
+
 <!-- ===================== QUOTE ===================== -->
 <p align="center">
   <i>
     "Keamanan bukan tentang siapa yang paling kuat,
     tapi siapa yang paling siap."
   </i><br/>
-  <sub>— Anonymous</sub>
+  <sub>#cyber security</sub>
 </p>
 
+
 <!-- ===================== PACMAN ===================== -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Frist131/Frist131/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Frist131/Frist131/output/pacman-contribution-graph.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Frist131/Frist131/output/pacman-contribution-graph.svg">
-</picture>
+
+<div align="center">
+  <img src="output/pacman.svg" width="100%" alt="Cyber Neon Pacman">
+</div>
+
 
 <!-- ===================== SOCIAL ===================== -->
 ## 🌐 Social Media
