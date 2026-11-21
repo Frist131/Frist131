@@ -1,5 +1,5 @@
 
-name: Generate Cyber Pacman
+name: Generate Pacman
 
 on:
   schedule:
