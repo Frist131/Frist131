@@ -92,7 +92,10 @@
 
 <!-- ===================== PACMAN ===================== -->
 
-![Cyber Pacman](https://raw.githubusercontent.com/Frist131/Frist131/main/output/pacman.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Frist131/Frist131/main/output/pacman.svg">
+  <img alt="Cyber Pacman" src="https://raw.githubusercontent.com/Frist131/Frist131/main/output/pacman.png" width="900" height="220">
+</picture>
 
 
 <!-- ===================== SOCIAL ===================== -->
