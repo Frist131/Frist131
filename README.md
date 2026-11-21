@@ -92,9 +92,7 @@
 
 <!-- ===================== PACMAN ===================== -->
 
-<div align="center">
-  <img src="output/pacman.svg" width="100%" alt="Cyber Neon Pacman">
-</div>
+![Cyber Pacman](https://raw.githubusercontent.com/Frist131/Frist131/main/output/pacman.svg)
 
 
 <!-- ===================== SOCIAL ===================== -->
