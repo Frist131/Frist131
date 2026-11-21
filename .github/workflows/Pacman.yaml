@@ -14,10 +14,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout main
         uses: actions/checkout@v4
+        with:
+          ref: main
 
-      - name: Generate Pacman SVG
+      - name: Generate Pacman
         run: |
           mkdir -p output
 
@@ -25,182 +27,146 @@ jobs:
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220">
             <defs>
               <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-                <stop offset="0%" stop-color="#080b18"/>
+                <stop offset="0%" stop-color="#050816"/>
                 <stop offset="100%" stop-color="#111827"/>
               </linearGradient>
-
               <filter id="glow">
-                <feGaussianBlur stdDeviation="4" result="blur"/>
+                <feGaussianBlur stdDeviation="4" result="b"/>
                 <feMerge>
-                  <feMergeNode in="blur"/>
+                  <feMergeNode in="b"/>
                   <feMergeNode in="SourceGraphic"/>
                 </feMerge>
               </filter>
-
-              <filter id="softGlow">
-                <feGaussianBlur stdDeviation="2.5"/>
-              </filter>
-
-              <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
-                <circle cx="14" cy="14" r="2" fill="#25334d"/>
-              </pattern>
             </defs>
 
-            <!-- Background -->
-            <rect width="900" height="220" rx="18" fill="url(#bg)"/>
-            <rect width="900" height="220" rx="18" fill="url(#grid)" opacity=".65"/>
+            <rect width="900" height="220" rx="16" fill="url(#bg)"/>
+            <rect x="1" y="1" width="898" height="218" rx="16"
+              fill="none" stroke="#00f7ff" opacity=".4"/>
 
-            <!-- Border -->
-            <rect x="1" y="1" width="898" height="218" rx="17"
-              fill="none" stroke="#22d3ee" stroke-opacity=".35"/>
+            <text x="28" y="35" fill="#00f7ff"
+              font-family="monospace" font-size="13"
+              letter-spacing="3">PACMAN.EXE</text>
 
-            <!-- Header -->
-            <text x="32" y="35" fill="#67e8f9"
-              font-family="monospace" font-size="13" letter-spacing="3">
-              SYSTEM / PACMAN.EXE
-            </text>
+            <text x="872" y="35" text-anchor="end"
+              fill="#64748b" font-family="monospace"
+              font-size="11">CYBER HUNT</text>
 
-            <text x="868" y="35" text-anchor="end"
-              fill="#64748b" font-family="monospace" font-size="11">
-              CONTRIBUTION HUNT
-            </text>
+            <path d="M30 65 H870 M30 175 H870"
+              stroke="#164e63" stroke-width="2" opacity=".6"/>
 
-            <!-- Maze -->
-            <g fill="none" stroke="#164e63" stroke-width="2"
-              stroke-linecap="round" opacity=".65">
-              <path d="M30 65 H870"/>
-              <path d="M30 175 H870"/>
-              <path d="M30 65 V175"/>
-              <path d="M870 65 V175"/>
-            </g>
-
-            <!-- Dots -->
-            <g fill="#67e8f9" filter="url(#softGlow)">
-              <circle cx="90" cy="120" r="4"/>
-              <circle cx="145" cy="120" r="4"/>
-              <circle cx="200" cy="120" r="4"/>
-              <circle cx="255" cy="120" r="4"/>
-              <circle cx="310" cy="120" r="4"/>
-              <circle cx="365" cy="120" r="4"/>
-              <circle cx="420" cy="120" r="4"/>
-              <circle cx="475" cy="120" r="4"/>
-              <circle cx="530" cy="120" r="4"/>
-              <circle cx="585" cy="120" r="4"/>
-              <circle cx="640" cy="120" r="4"/>
-              <circle cx="695" cy="120" r="4"/>
-              <circle cx="750" cy="120" r="4"/>
-              <circle cx="805" cy="120" r="4"/>
+            <g fill="#67e8f9">
+              <circle cx="90" cy="120" r="3"/>
+              <circle cx="145" cy="120" r="3"/>
+              <circle cx="200" cy="120" r="3"/>
+              <circle cx="255" cy="120" r="3"/>
+              <circle cx="310" cy="120" r="3"/>
+              <circle cx="365" cy="120" r="3"/>
+              <circle cx="420" cy="120" r="3"/>
+              <circle cx="475" cy="120" r="3"/>
+              <circle cx="530" cy="120" r="3"/>
+              <circle cx="585" cy="120" r="3"/>
+              <circle cx="640" cy="120" r="3"/>
+              <circle cx="695" cy="120" r="3"/>
+              <circle cx="750" cy="120" r="3"/>
+              <circle cx="805" cy="120" r="3"/>
             </g>
 
             <!-- Pacman -->
             <g filter="url(#glow)">
-              <g>
-                <animateMotion
-                  dur="8s"
-                  repeatCount="indefinite"
-                  path="M90 120 H805"
-                  keyPoints="0;1;0"
-                  keyTimes="0;.5;1"
-                  calcMode="linear"/>
-                <g>
-                  <animateTransform attributeName="transform"
-                    type="scale" values="1;1;1"
-                    dur="1s" repeatCount="indefinite"/>
-                  <path fill="#fde047"
-                    d="M0 0 L-21 -16 A26 26 0 1 0 -21 16 Z"
-                    transform="translate(0 0)">
-                    <animate attributeName="d"
-                      values="M0 0 L-21 -16 A26 26 0 1 0 -21 16 Z;
-                              M0 0 L-8 -4 A26 26 0 1 0 -8 4 Z;
-                              M0 0 L-21 -16 A26 26 0 1 0 -21 16 Z"
-                      dur=".35s" repeatCount="indefinite"/>
-                  </path>
-                </g>
-              </g>
+              <animateMotion dur="8s" repeatCount="indefinite"
+                path="M90 120 H805"
+                keyPoints="0;1;0" keyTimes="0;.5;1"
+                calcMode="linear"/>
+              <path fill="#ffe600"
+                d="M0 0 L-23 -17 A28 28 0 1 0 -23 17 Z">
+                <animate attributeName="d"
+                  values="M0 0 L-23 -17 A28 28 0 1 0 -23 17 Z;
+                          M0 0 L-8 -5 A28 28 0 1 0 -8 5 Z;
+                          M0 0 L-23 -17 A28 28 0 1 0 -23 17 Z"
+                  dur=".32s" repeatCount="indefinite"/>
+              </path>
             </g>
 
-            <!-- Ghost 1 -->
-            <g>
+            <!-- Ghost cyan -->
+            <g filter="url(#glow)">
               <animateMotion dur="8s" repeatCount="indefinite"
                 path="M145 120 H805"
-                keyPoints="0;1;0" keyTimes="0;.5;1"/>
-              <g filter="url(#glow)">
-                <path d="M-15 15 V-5 A15 15 0 0 1 15 -5 V15
-                         L8 9 L0 15 L-8 9 Z"
-                  fill="#22d3ee"/>
-                <circle cx="-5" cy="-3" r="3" fill="#fff"/>
-                <circle cx="5" cy="-3" r="3" fill="#fff"/>
-                <circle cx="-5" cy="-3" r="1.5" fill="#0f172a"/>
-                <circle cx="5" cy="-3" r="1.5" fill="#0f172a"/>
-              </g>
+                keyPoints="0;1;0" keyTimes="0;.5;1"
+                calcMode="linear"/>
+              <path fill="#00f7ff"
+                d="M-15 15 V-5 A15 15 0 0 1 15 -5 V15
+                   L8 9 L0 15 L-8 9 Z"/>
+              <circle cx="-5" cy="-3" r="4" fill="white"/>
+              <circle cx="5" cy="-3" r="4" fill="white"/>
+              <circle cx="-5" cy="-3" r="2" fill="#111827"/>
+              <circle cx="5" cy="-3" r="2" fill="#111827"/>
             </g>
 
-            <!-- Ghost 2 -->
-            <g>
+            <!-- Ghost violet -->
+            <g filter="url(#glow)">
               <animateMotion dur="8s" repeatCount="indefinite"
                 path="M255 120 H805"
-                keyPoints="0;1;0" keyTimes="0;.5;1"/>
-              <g filter="url(#glow)">
-                <path d="M-15 15 V-5 A15 15 0 0 1 15 -5 V15
-                         L8 9 L0 15 L-8 9 Z"
-                  fill="#a78bfa"/>
-                <circle cx="-5" cy="-3" r="3" fill="#fff"/>
-                <circle cx="5" cy="-3" r="3" fill="#fff"/>
-                <circle cx="-5" cy="-3" r="1.5" fill="#0f172a"/>
-                <circle cx="5" cy="-3" r="1.5" fill="#0f172a"/>
-              </g>
+                keyPoints="0;1;0" keyTimes="0;.5;1"
+                calcMode="linear"/>
+              <path fill="#a855f7"
+                d="M-15 15 V-5 A15 15 0 0 1 15 -5 V15
+                   L8 9 L0 15 L-8 9 Z"/>
+              <circle cx="-5" cy="-3" r="4" fill="white"/>
+              <circle cx="5" cy="-3" r="4" fill="white"/>
+              <circle cx="-5" cy="-3" r="2" fill="#111827"/>
+              <circle cx="5" cy="-3" r="2" fill="#111827"/>
             </g>
 
-            <!-- Ghost 3 -->
-            <g>
+            <!-- Ghost pink -->
+            <g filter="url(#glow)">
               <animateMotion dur="8s" repeatCount="indefinite"
                 path="M365 120 H805"
-                keyPoints="0;1;0" keyTimes="0;.5;1"/>
-              <g filter="url(#glow)">
-                <path d="M-15 15 V-5 A15 15 0 0 1 15 -5 V15
-                         L8 9 L0 15 L-8 9 Z"
-                  fill="#f472b6"/>
-                <circle cx="-5" cy="-3" r="3" fill="#fff"/>
-                <circle cx="5" cy="-3" r="3" fill="#fff"/>
-                <circle cx="-5" cy="-3" r="1.5" fill="#0f172a"/>
-                <circle cx="5" cy="-3" r="1.5" fill="#0f172a"/>
-              </g>
+                keyPoints="0;1;0" keyTimes="0;.5;1"
+                calcMode="linear"/>
+              <path fill="#f472b6"
+                d="M-15 15 V-5 A15 15 0 0 1 15 -5 V15
+                   L8 9 L0 15 L-8 9 Z"/>
+              <circle cx="-5" cy="-3" r="4" fill="white"/>
+              <circle cx="5" cy="-3" r="4" fill="white"/>
+              <circle cx="-5" cy="-3" r="2" fill="#111827"/>
+              <circle cx="5" cy="-3" r="2" fill="#111827"/>
             </g>
 
-            <!-- Ghost 4 -->
-            <g>
+            <!-- Ghost red -->
+            <g filter="url(#glow)">
               <animateMotion dur="8s" repeatCount="indefinite"
                 path="M475 120 H805"
-                keyPoints="0;1;0" keyTimes="0;.5;1"/>
-              <g filter="url(#glow)">
-                <path d="M-15 15 V-5 A15 15 0 0 1 15 -5 V15
-                         L8 9 L0 15 L-8 9 Z"
-                  fill="#fb7185"/>
-                <circle cx="-5" cy="-3" r="3" fill="#fff"/>
-                <circle cx="5" cy="-3" r="3" fill="#fff"/>
-                <circle cx="-5" cy="-3" r="1.5" fill="#0f172a"/>
-                <circle cx="5" cy="-3" r="1.5" fill="#0f172a"/>
-              </g>
+                keyPoints="0;1;0" keyTimes="0;.5;1"
+                calcMode="linear"/>
+              <path fill="#fb7185"
+                d="M-15 15 V-5 A15 15 0 0 1 15 -5 V15
+                   L8 9 L0 15 L-8 9 Z"/>
+              <circle cx="-5" cy="-3" r="4" fill="white"/>
+              <circle cx="5" cy="-3" r="4" fill="white"/>
+              <circle cx="-5" cy="-3" r="2" fill="#111827"/>
+              <circle cx="5" cy="-3" r="2" fill="#111827"/>
             </g>
 
-            <!-- Footer -->
-            <text x="32" y="202" fill="#64748b"
+            <text x="28" y="202" fill="#64748b"
               font-family="monospace" font-size="10">
-              [ HUNTING COMMITS ] [ NEON MODE ACTIVE ]
+              [ CYBER HUNT ] [ NEON MODE ]
             </text>
 
-            <text x="868" y="202" text-anchor="end" fill="#22d3ee"
-              font-family="monospace" font-size="10">
-              LIVE / LOOP
-            </text>
+            <text x="872" y="202" text-anchor="end"
+              fill="#00f7ff" font-family="monospace"
+              font-size="10">SYSTEM ACTIVE</text>
           </svg>
           SVG
 
-      - name: Commit generated Pacman
+      - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add output/pacman.svg
-          git diff --cached --quiet || git commit -m "Update cyber pacman"
-          git push
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Update cyber pacman"
+            git push origin main
+          fi
           
