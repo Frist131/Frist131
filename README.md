@@ -2,15 +2,13 @@
 
 <!-- ===================== BANNER ===================== -->
 <p align="center">
-  <img src="assets/banner.gif" width="100%" alt="Cybersecurity Banner"/>
+  <img src="assets/banner.gif" width="100%" alt="banner"/>
 </p>
-
 <p align="center">
 </p>
 
 
 <!-- ===================== TERMINAL ===================== -->
-
 <p align="center">
   <img
     src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=5000&pause=10000&deleteSpeed=30&cursor=%5F&color=00F7A5&background=00000000&center=true&vCenter=true&width=700&lines=Zyren+Kazuhira+%7C+Security+Researcher"
