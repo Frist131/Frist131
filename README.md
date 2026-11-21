@@ -30,8 +30,8 @@
         </p>
       </div>
     </td>
-    <td width="45%" valign="top" align="center">
-      <div style="padding-top: 20px;">
+    <td width="60%" valign="top" align="center">
+      <div style="padding-top: 50px;">
         <img src="https://i.pinimg.com/564x/b6/bf/82/b6bf8248f865e6c867c4d0c15fbfbc9f.jpg" width="100%" alt="Custom Profile Image"/>
       </div>
     </td>
