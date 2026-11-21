@@ -5,8 +5,6 @@
 </p>
 
 <p align="center">
-  <i>Find the weakness. Understand the risk.<br/>
-  Build a safer tomorrow.</i>
 </p>
 
 <!-- ===================== TERMINAL ===================== -->
