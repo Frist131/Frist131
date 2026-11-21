@@ -85,7 +85,7 @@
 
 <!-- ===================== PACMAN ===================== -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/menggitik/menggitik/output/pacman-contribution-graph.svg" width="100%" alt="Pacman Contribution Graph"/>
+  <img src="https://raw.githubusercontent.com/Frist131/Frist131/output/pacman-contribution-graph.svg" width="100%" alt="Pacman Contribution Graph"/>
 </p>
 
 <!-- ===================== SOCIAL ===================== -->
