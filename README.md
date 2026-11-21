@@ -1,5 +1,4 @@
 
-
 <!-- ===================== BANNER ===================== -->
 <p align="center">
   <img src="https://i.pinimg.com/originals/67/07/05/6707055158264320bd4462bcc037a81a.gif" width="100%" alt="assets/banner"/>
@@ -18,17 +17,23 @@
 
 
 <!-- ===================== PROFILE ===================== -->
-<table>
+<table width="100%" cellpadding="12" cellspacing="0">
   <tr>
     <td width="55%" valign="top">
-      <h2>Deskripsi</h2>
-      Seorang <b>Pentester</b> yang tertarik pada
-      keamanan siber, analisis kerentanan,
-      dan eksploitasi sistem untuk membangun
-      pertahanan lebih kuat.
+      <div style="padding: 12px 18px 12px 8px;">
+        <h2>Deskripsi</h2>
+        <p>
+          Seorang <b>Pentester</b> yang tertarik pada
+          keamanan siber, analisis kerentanan,
+          dan eksploitasi sistem untuk membangun
+          pertahanan lebih kuat.
+        </p>
+      </div>
     </td>
-    <td width="45%" align="center" valign="middle">
-      <img src="https://i.pinimg.com/564x/b6/bf/82/b6bf8248f865e6c867c4d0c15fbfbc9f.jpg" width="100%" alt="Custom Profile Image"/>
+    <td width="45%" valign="top" align="center">
+      <div style="padding-top: 20px;">
+        <img src="https://i.pinimg.com/564x/b6/bf/82/b6bf8248f865e6c867c4d0c15fbfbc9f.jpg" width="100%" alt="Custom Profile Image"/>
+      </div>
     </td>
   </tr>
 </table>
