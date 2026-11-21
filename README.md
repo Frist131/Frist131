@@ -28,7 +28,7 @@
       pertahanan lebih kuat.
     </td>
     <td width="45%" align="center" valign="middle">
-      <img src="assets/profile.pn" width="100%" alt="Custom Profile Image"/>
+      <img src="https://i.pinimg.com/564x/b6/bf/82/b6bf8248f865e6c867c4d0c15fbfbc9f.jpg" width="100%" alt="Custom Profile Image"/>
     </td>
   </tr>
 </table>
