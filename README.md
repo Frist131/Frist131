@@ -41,7 +41,7 @@
   <img src="https://img.shields.io/badge/Vulnerability_Assessment-FFB000?style=for-the-badge&logoColor=white"/>
   <img src="https://img.shields.io/badge/Exploitation-00C853?style=for-the-badge&logo=terminal&logoColor=white"/>
   <img src="https://img.shields.io/badge/Post--Exploitation-0096FF?style=for-the-badge&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Red_Teaming-BC13FE?style=for-the-badge&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Grey_Hat-BC13FE?style=for-the-badge&logoColor=white"/>
   <img src="https://img.shields.io/badge/Reporting-EA4335?style=for-the-badge&logoColor=white"/>
 </p>
 
@@ -58,6 +58,7 @@
   <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" alt="Wireshark"/>
   <img src="https://img.shields.io/badge/OWASP_ZAP-00549E?style=for-the-badge&logo=owasp&logoColor=white" alt="OWASP ZAP"/>
   <img src="https://img.shields.io/badge/Hashcat-000000?style=for-the-badge&logo=hashcat&logoColor=white" alt="Hashcat"/>
+  <img src="https://img.shields.io/badge/Nuclei-6E56CF?style=for-the-badge&logo=go&logoColor=white" alt="Nuclei"/>
 </p>
 
 
