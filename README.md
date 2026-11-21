@@ -20,7 +20,7 @@
   <tr>
     <td width="55%" valign="top">
       <h2>Deskripsi</h2>
-      Seorang **Pentester** yang tertarik pada
+      Seorang <b>Pentester</b> yang tertarik pada
       keamanan siber, analisis kerentanan,
       dan eksploitasi sistem untuk membangun
       pertahanan lebih kuat.
