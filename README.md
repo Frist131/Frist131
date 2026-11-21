@@ -83,10 +83,10 @@
 <!-- ===================== QUOTE ===================== -->
 <p align="center">
   <i>
-    "Keamanan bukan tentang siapa yang paling kuat,
-    tapi siapa yang paling siap."
+    "kerentanan yang sebenarnya itu ada
+    pada manusia itu sendiri."
   </i><br/>
-  <sub>#cyber security</sub>
+  <sub>#human eror</sub>
 </p>
 
 
