@@ -21,7 +21,7 @@
 <h2>Deskripsi</h2>
 
 <p>
-  <img align="right" src="https://i.pinimg.com/564x/b6/bf/82/b6bf8248f865e6c867c4d0c15fbfbc9f.jpg" width="200" alt="Deskripsi Image"/>
+  <img align="right" src="https://i.pinimg.com/564x/b6/bf/82/b6bf8248f865e6c867c4d0c15fbfbc9f.jpg" width="350" alt="Deskripsi Image"/>
   <code>$ cat inside.txt</code><br/>
   Sistem yang aman bukan yang tidak punya celah,
   tapi yang celahnya ketemu lebih dulu oleh orang yang tepat.<br/><br/>
