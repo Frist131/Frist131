@@ -1,4 +1,3 @@
-
 <!-- ===================== BANNER ===================== -->
 <p align="center">
   <img src="https://i.pinimg.com/originals/67/07/05/6707055158264320bd4462bcc037a81a.gif" width="100%" alt="assets/banner"/>
@@ -6,6 +5,7 @@
 <p align="center">
 </p>
 
+<br/>
 
 <!-- ===================== TERMINAL ===================== -->
 <p align="center">
@@ -15,31 +15,32 @@
   />
 </p>
 
+<br/>
+<br/>
 
-<!-- ===================== PROFILE ===================== -->
-<table width="100%" cellpadding="12" cellspacing="0">
-  <tr>
-    <td width="55%" valign="top">
-      <div style="padding: 12px 18px 12px 8px;">
-        <h2>Deskripsi</h2>
-        <p>
-          Seorang <b>Pentester</b> yang tertarik pada
-          keamanan siber, analisis kerentanan,
-          dan eksploitasi sistem untuk membangun
-          pertahanan lebih kuat.
-        </p>
-      </div>
-    </td>
-    <td width="60%" valign="top" align="center">
-      <div style="padding-top: 50px;">
-        <img src="https://i.pinimg.com/564x/b6/bf/82/b6bf8248f865e6c867c4d0c15fbfbc9f.jpg" width="100%" alt="Custom Profile Image"/>
-      </div>
-    </td>
-  </tr>
-</table>
+<!-- ===================== DESKRIPSI ===================== -->
+<img align="right" src="https://i.pinimg.com/564x/b6/bf/82/b6bf8248f865e6c867c4d0c15fbfbc9f.jpg" width="320" alt="Deskripsi Image"/>
+
+<br/>
+
+<h2>Deskripsi</h2>
+
+<p>
+  Seorang <b>Pentester</b> yang tertarik pada
+  keamanan siber, analisis kerentanan,
+  dan eksploitasi sistem untuk membangun
+  pertahanan lebih kuat.
+</p>
+
+<br clear="right"/>
+
+<br/>
+<br/>
 
 <!-- ===================== SKILLS ===================== -->
 ## 🛡️ Keahlian Pentest
+
+<br/>
 
 <p>
   <img src="https://img.shields.io/badge/Reconnaissance-0078D7?style=for-the-badge&logo=target&logoColor=white"/>
@@ -50,10 +51,13 @@
   <img src="https://img.shields.io/badge/Reporting-EA4335?style=for-the-badge&logoColor=white"/>
 </p>
 
+<br/>
+<br/>
 
 <!-- ===================== TOOLS ===================== -->
-
 ## ⚙️ Tools & Frameworks
+
+<br/>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white" alt="Kali Linux"/>
@@ -66,9 +70,13 @@
   <img src="https://img.shields.io/badge/Nuclei-6E56CF?style=for-the-badge&logo=go&logoColor=white" alt="Nuclei"/>
 </p>
 
+<br/>
+<br/>
 
 <!-- ===================== CERTIFICATES ===================== -->
 ## 🏆 Certifications & Achievements
+
+<br/>
 
 <table>
   <tr>
@@ -85,6 +93,8 @@
   </tr>
 </table>
 
+<br/>
+<br/>
 
 <!-- ===================== QUOTE ===================== -->
 <p align="center">
@@ -95,18 +105,23 @@
   <sub>#human eror</sub>
 </p>
 
+<br/>
+<br/>
 
 <!-- ===================== PACMAN ===================== -->
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Frist131/Frist131/output/pacman-contribution-graph-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Frist131/Frist131/output/pacman-contribution-graph.svg">
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Frist131/Frist131/output/pacman-contribution-graph.svg">
 </picture>
 
+<br/>
+<br/>
 
 <!-- ===================== SOCIAL ===================== -->
 ## 🌐 Social Media
+
+<br/>
 
 <p align="center">
   <a href="https://instagram.com/USERNAME_IG">
@@ -115,7 +130,7 @@
   <a href="mailto:EMAIL_KAMU">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
-    <a href="https://tiktok.com/@USERNAME_TIKTOK">
+  <a href="https://tiktok.com/@USERNAME_TIKTOK">
     <img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok"/>
   </a>
 </p>
