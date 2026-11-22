@@ -26,10 +26,11 @@
 <h2>Deskripsi</h2>
 
 <p>
-  Seorang <b>Pentester</b> yang tertarik pada
-  keamanan siber, analisis kerentanan,
-  dan eksploitasi sistem untuk membangun
-  pertahanan lebih kuat.
+  <code>$ cat inside.txt</code><br/>
+  Sistem yang aman bukan yang tidak punya celah,
+  tapi yang celahnya ketemu lebih dulu oleh orang yang tepat.<br/><br/>
+  <code>$ cat approach.txt</code><br/>
+  Berpikir seperti penyerang, bekerja seperti pembela.
 </p>
 
 <br clear="right"/>
@@ -78,23 +79,27 @@
 
 <br/>
 
-<table>
-  <tr>
-    <td width="50%" align="center">
-      <a href="assets/cert-1.png">
-        <img src="assets/cert-1.png" width="100%" alt="Certificate 1"/>
-      </a>
-    </td>
-    <td width="50%" align="center">
-      <a href="assets/cert-2.png">
-        <img src="assets/cert-2.png" width="100%" alt="Certificate 2"/>
-      </a>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="assets/cert-1.png">
+    <img src="assets/cert-1.png" width="45%" alt="Certificate 1"/>
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="assets/cert-2.png">
+    <img src="assets/cert-2.png" width="45%" alt="Certificate 2"/>
+  </a>
+</p>
 
 <br/>
-<br/>
+
+<p align="center">
+  <a href="assets/cert-3.png">
+    <img src="assets/cert-3.png" width="45%" alt="Certificate 3"/>
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="assets/cert-4.png">
+    <img src="assets/cert-4.png" width="45%" alt="Certificate 4"/>
+  </a>
+</p>
 
 <!-- ===================== QUOTE ===================== -->
 <p align="center">
