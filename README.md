@@ -1,10 +1,13 @@
 <!-- ===================== BANNER ===================== -->
+<br/>
+
 <p align="center">
   <img src="https://media.tenor.com/m1Mr-khUDVgAAAAC/anime-hacking.gif" width="100%" alt="banner"/>
 </p>
 <p align="center">
 </p>
 
+<br/>
 <br/>
 
 <!-- ===================== TERMINAL ===================== -->
@@ -13,13 +16,12 @@
 </p>
 
 <!-- ===================== DESKRIPSI ===================== -->
-<img align="right" src="https://i.pinimg.com/564x/b6/bf/82/b6bf8248f865e6c867c4d0c15fbfbc9f.jpg" width="320" alt="Deskripsi Image"/>
-
 <br/>
 
 <h2>Deskripsi</h2>
 
 <p>
+  <img align="right" src="https://i.pinimg.com/564x/b6/bf/82/b6bf8248f865e6c867c4d0c15fbfbc9f.jpg" width="170" alt="Deskripsi Image"/>
   <code>$ cat inside.txt</code><br/>
   Sistem yang aman bukan yang tidak punya celah,
   tapi yang celahnya ketemu lebih dulu oleh orang yang tepat.<br/><br/>
