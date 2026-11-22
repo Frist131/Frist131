@@ -13,7 +13,7 @@
   <text x="112" y="35" fill="#00F7A5" font-family="'Fira Code', monospace" font-size="22"
         textLength="476" lengthAdjust="spacingAndGlyphs" clip-path="url(#reveal)">Zyren Kazuhira | Security Researcher</text>
 
-  <rect y="40" width="13" height="3" fill="#A0A0A0">
+  <rect y="40" width="13" height="3" fill="#E6E6E6">
     <animate attributeName="x"
              values="112;588;588;112;112"
              keyTimes="0;0.2353;0.8235;0.9412;1"
