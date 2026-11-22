@@ -9,14 +9,8 @@
 
 <!-- ===================== TERMINAL ===================== -->
 <p align="center">
-  <img
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=5000&pause=10000&deleteSpeed=30&cursor=%5F&color=00F7A5&background=00000000&center=true&vCenter=true&width=700&lines=Zyren+Kazuhira+%7C+Security+Researcher"
-    alt="Terminal typing animation"
-  />
+  <img src="assets/typing.svg" alt="Terminal typing animation"/>
 </p>
-
-<br/>
-<br/>
 
 <!-- ===================== DESKRIPSI ===================== -->
 <img align="right" src="https://i.pinimg.com/564x/b6/bf/82/b6bf8248f865e6c867c4d0c15fbfbc9f.jpg" width="320" alt="Deskripsi Image"/>
